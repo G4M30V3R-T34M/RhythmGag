@@ -771,6 +771,74 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "GagPlayer",
+            "id": "73400d86-1398-4912-a754-9da481a5cc65",
+            "actions": [
+                {
+                    "name": "SmileGag",
+                    "type": "Button",
+                    "id": "bf42b7fa-f4f8-4541-a228-c03437d77249",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PartyGag",
+                    "type": "Button",
+                    "id": "1ad9afef-78c9-420c-b921-e7e3ee2b205f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StarGag",
+                    "type": "Button",
+                    "id": "8d252eda-19b4-48c5-b5f6-82de71819f12",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1a2c854b-1b1f-4b48-a741-9a7668c6f0ac",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SmileGag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cec63ed8-ce12-4b2e-9723-cebc45b4bf8f",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PartyGag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba9a0536-16ee-4635-8866-88c1e4ee170a",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StarGag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
