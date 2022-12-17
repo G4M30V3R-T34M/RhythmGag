@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2821352417049910279, guid: c2c9e1b1cb99a084a812b549798f2fd1, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.35933605
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821352417049910279, guid: c2c9e1b1cb99a084a812b549798f2fd1, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.7834724
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821352417049910279, guid: c2c9e1b1cb99a084a812b549798f2fd1, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.8018868
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821352417049910279, guid: c2c9e1b1cb99a084a812b549798f2fd1, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821352417049910279, guid: c2c9e1b1cb99a084a812b549798f2fd1, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821352417049910279, guid: c2c9e1b1cb99a084a812b549798f2fd1, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8679245
+      objectReference: {fileID: 0}
     - target: {fileID: 2821352417049910296, guid: c2c9e1b1cb99a084a812b549798f2fd1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -93,7 +117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2821352417049910297, guid: c2c9e1b1cb99a084a812b549798f2fd1, type: 3}
       propertyPath: m_Name
-      value: MenuButton
+      value: CreditsButtonToogleGO
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2c9e1b1cb99a084a812b549798f2fd1, type: 3}
