@@ -41,9 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Curtains
-    uniqueID: 1661878567
-    locked: 0
   - name: Background
     uniqueID: 3501071313
+    locked: 0
+  - name: GameElements
+    uniqueID: 1913905693
+    locked: 0
+  - name: Curtains
+    uniqueID: 1661878567
     locked: 0
