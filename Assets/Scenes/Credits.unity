@@ -316,8 +316,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -82}
-  m_SizeDelta: {x: 995.4409, y: 239.7894}
+  m_AnchoredPosition: {x: 0, y: -45.687}
+  m_SizeDelta: {x: 995.4409, y: 91.374}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &400033541
 MonoBehaviour:
@@ -339,14 +339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Design and Development
-
-    Pep Manas: @Neengash (Instagram, github, itch.io)
-
-    Jaume
-    Riera: @Xubecgames (Instagram, itch.io)
-
-    Daniel Ciero: @Dcieroarts (Instagram)'
+  m_text: Pep 'Neengash' Manas
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dd85d8930f319564d917bc225b5b276d, type: 2}
   m_sharedMaterial: {fileID: 1253132679656831243, guid: dd85d8930f319564d917bc225b5b276d, type: 2}
@@ -373,10 +366,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.83
+  m_fontSize: 72
   m_fontSizeBase: 60.83
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1174,8 +1167,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 143.5596}
-  m_SizeDelta: {x: 853.0989, y: 75.1192}
+  m_AnchoredPosition: {x: 0, y: 77.919556}
+  m_SizeDelta: {x: 853.0989, y: 88.9583}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1305397866
 MonoBehaviour:
@@ -1197,7 +1190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Game Developed By: G4M30V3R T34M'
+  m_text: Design, Art and Development
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dd85d8930f319564d917bc225b5b276d, type: 2}
   m_sharedMaterial: {fileID: 1253132679656831243, guid: dd85d8930f319564d917bc225b5b276d, type: 2}
@@ -1224,12 +1217,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 89.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
@@ -1389,8 +1382,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 264.47, y: -39.05}
-  m_SizeDelta: {x: 466.4912, y: 310.83}
+  m_AnchoredPosition: {x: 264.47, y: -45.167374}
+  m_SizeDelta: {x: 466.4912, y: 347.2792}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339829200
 MonoBehaviour:
@@ -1452,10 +1445,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38
+  m_fontSize: 42.9
   m_fontSizeBase: 38
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2007,8 +2000,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260.24, y: -39.050682}
-  m_SizeDelta: {x: 474.9608, y: 310.8273}
+  m_AnchoredPosition: {x: -260.24, y: -45.169}
+  m_SizeDelta: {x: 474.9608, y: 347.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2056526613
 MonoBehaviour:
@@ -2069,10 +2062,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 49.05
   m_fontSizeBase: 40
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
