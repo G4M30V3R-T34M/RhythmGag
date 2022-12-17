@@ -5,4 +5,6 @@ public class GagPreference_SO : ScriptableObject
 {
     public Sprite sprite;
     public Color color;
+    public GagPreferenceType type;
+    public Sprite arrowSprite;
 }

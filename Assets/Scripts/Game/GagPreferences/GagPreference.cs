@@ -28,7 +28,7 @@ public class GagPreference : MonoBehaviour
     public void CheckPreferenceDecrement(int type) {
         if ((GagPreferenceType)type == currentType) {
             counter--;
-            if (counter == 0) {
+            if (counter <= 0) {
                 SetRandomType();
             }
         }
@@ -37,5 +37,9 @@ public class GagPreference : MonoBehaviour
     private void SetRandomType() {
         SetType((GagPreferenceType)Random.Range(0, 3));
         counter = Random.Range(1, 4);
+    }
+
+    private void OnDestroy() {
+        RuntimeSets[(int)currentType].Remove(this);
     }
 }

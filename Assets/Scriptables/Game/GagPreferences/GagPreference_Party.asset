@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: -17760588, guid: 1e219f1667addb744bb51695148914ca, type: 3}
   color: {r: 0.6885195, g: 0.22761661, b: 0.8773585, a: 1}
+  type: 1
+  arrowSprite: {fileID: 1919262694, guid: 1e219f1667addb744bb51695148914ca, type: 3}
