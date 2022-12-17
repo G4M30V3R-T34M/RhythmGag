@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.078431375}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -529,20 +529,18 @@ MonoBehaviour:
     Score as many points as possible along a show divided
     into 3 acts
 
-    
 
-    In each act you will have to follow the rhythm to tell
-    jokes and get points
+    In each act you will have to follow the rhythm to tell jokes
+    and get points
 
     Every act will have it''s own rhythm
 
-    The better
-    the timming, the more points the jokes score
+    The better the
+    timming, the more points the jokes score
 
-    
 
-    There are 3 types of
-    jokes (3 buttons, associated to 3 arrow keys)
+    There are 3 types of jokes (3
+    buttons, associated to 3 arrow keys)
 
     Your audience has jokes preferences,
     which can vary over time
@@ -865,6 +863,63 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7178848202284124055, guid: f9a18aedbe8d76e4f9259b413c1534f5, type: 3}
   m_PrefabInstance: {fileID: 1587574465}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1751636095
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457357183636325248, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_Name
+      value: Background
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
 --- !u!1001 &1762902559
 PrefabInstance:
   m_ObjectHideFlags: 0
