@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class GagTypeButton : BaseMenuOption
 {
@@ -18,9 +19,11 @@ public class GagTypeButton : BaseMenuOption
         arrowIconImage.color = gagPreference.color;
     }
 
-    public void InvokeOnClick() {
-        StartCoroutine(FadeToColor());
-        button.onClick.Invoke();
+    public void InvokeOnClick(InputAction.CallbackContext context) {
+        if (context.started) {
+            StartCoroutine(FadeToColor());
+            button.onClick.Invoke();
+        }
     }
 
     private IEnumerator FadeToColor() {
