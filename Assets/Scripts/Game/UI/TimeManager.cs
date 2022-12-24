@@ -7,10 +7,11 @@ public class TimeManager : MonoBehaviour
 {
     [SerializeField] GameEvent endAct;
     [SerializeField] TextMeshProUGUI timer;
+    [SerializeField] FloatReference actDuration;
     float remainingTime;
 
     public void StartAct() {
-        remainingTime = 30f;
+        remainingTime = actDuration;
         StartCoroutine(ActTimer());
     }
 
