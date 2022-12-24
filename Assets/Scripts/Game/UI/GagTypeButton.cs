@@ -20,9 +20,11 @@ public class GagTypeButton : BaseMenuOption
     }
 
     public void InvokeOnClick(InputAction.CallbackContext context) {
-        if (context.started) {
-            StartCoroutine(FadeToColor());
-            button.onClick.Invoke();
+        if (button.interactable) {
+            if (context.started) {
+                StartCoroutine(FadeToColor());
+                button.onClick.Invoke();
+            }
         }
     }
 
