@@ -8,6 +8,7 @@ public class RhythmTimming : MonoBehaviour
     [Header("1st = SMILE / 2nd = PARTY / 3rd = STAR")]
     [SerializeField] GagPreferenceRuntimeSet[] CurrentGagPreferences;
     [SerializeField] FloatVariable score;
+    [SerializeField] GameEvent updateScore;
     Gag currentGag;
 
     private void Awake() {
@@ -23,6 +24,7 @@ public class RhythmTimming : MonoBehaviour
             float gagScore = 10 * preferencesMultiplier * distanceMultiplier;
             int cleanGagScore = Mathf.RoundToInt(gagScore);
             score.ApplyChange(cleanGagScore);
+            updateScore.Raise();
 
             currentGag.gameObject.SetActive(false);
         } else {
@@ -30,6 +32,7 @@ public class RhythmTimming : MonoBehaviour
             if (score.Value < 0) {
                 score.SetValue(0);
             }
+            updateScore.Raise();
         }
     }
 
