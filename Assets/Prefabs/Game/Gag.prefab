@@ -56,6 +56,8 @@ MonoBehaviour:
     UseConstant: 0
     ConstantValue: 
     Variable: {fileID: 11400000, guid: 4e33f38b9dd657140824d06fc2cf6c2f, type: 2}
+  score: {fileID: 11400000, guid: 3d297ef97404e534a99ff2630e9c368f, type: 2}
+  updateScore: {fileID: 11400000, guid: 24335a9d34858294d8fa57e29663cfcc, type: 2}
 --- !u!114 &1389110460453785013
 MonoBehaviour:
   m_ObjectHideFlags: 0
