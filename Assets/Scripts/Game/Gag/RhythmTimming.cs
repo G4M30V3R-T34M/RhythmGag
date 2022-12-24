@@ -11,6 +11,8 @@ public class RhythmTimming : MonoBehaviour
     [SerializeField] GameEvent updateScore;
     Gag currentGag;
 
+    int counter = 0;
+
     private void Awake() {
         score.SetValue(0);
     }
@@ -38,10 +40,14 @@ public class RhythmTimming : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         currentGag = collision.gameObject.GetComponent<Gag>();
+        counter++;
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
-        currentGag = null;
+        counter--;
+        if (counter == 0) {
+            currentGag = null;
+        }
     }
 
 }

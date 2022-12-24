@@ -13,13 +13,15 @@ public class SoundManager : MonoBehaviour
     [SerializeField] AudioSource audioSource;
     [SerializeField] GameEvent startAct;
 
+    Coroutine fadeOutCoroutine;
+
     void Start() {
         currentAct.SetValue(0);
         StartCoroutine(FadeInSong(actSongs.songs[(int)currentAct.Value]));
     }
 
     public void FadeOutSong() {
-        StartCoroutine(DoFadeOutSong());
+        fadeOutCoroutine = StartCoroutine(DoFadeOutSong());
     }
 
     private IEnumerator DoFadeOutSong() {
@@ -30,10 +32,14 @@ public class SoundManager : MonoBehaviour
             audioSource.volume -= fadeSpeed * Time.deltaTime;
         }
         audioSource.Stop();
+        fadeOutCoroutine = null;
     }
 
     public void LoadNewAct() {
         currentAct.SetValue(currentAct.Value + 1);
+        if (fadeOutCoroutine != null) {
+            StopCoroutine(fadeOutCoroutine);
+        }
         StartCoroutine(FadeInSong(actSongs.songs[(int)currentAct.Value]));
     }
 
