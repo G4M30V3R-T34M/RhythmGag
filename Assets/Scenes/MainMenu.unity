@@ -229,6 +229,63 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7178848202284124055, guid: f9a18aedbe8d76e4f9259b413c1534f5, type: 3}
   m_PrefabInstance: {fileID: 132509163}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &133040108
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392617266853811576, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457357183636325248, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
+      propertyPath: m_Name
+      value: Background
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3579a8b3929e23a4f89149ff3deab7a7, type: 3}
 --- !u!1001 &327454865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -579,7 +636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.078431375}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -640,7 +697,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 192}
-  m_SizeDelta: {x: 358.5398, y: 89.6349}
+  m_SizeDelta: {x: 603.58, y: 183.3268}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1302109532
 MonoBehaviour:
@@ -662,10 +719,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: RHYTHM GAG
+  m_text: (RHYTHM_GAG)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: caece1673fba84d46a4588b3446f68f5, type: 2}
+  m_sharedMaterial: {fileID: 7852779081368378827, guid: caece1673fba84d46a4588b3446f68f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -689,12 +746,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.15
+  m_fontSize: 91.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 120
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
